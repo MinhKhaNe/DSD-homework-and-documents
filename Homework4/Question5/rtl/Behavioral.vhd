@@ -1,0 +1,28 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity half_adder_subtractor is
+port(
+  a: in std_logic_vector(1 downto 0);
+  b: in std_logic_vector(1 downto 0);
+  ctrl: in std_logic;
+  sum: out std_logic_vector(1 downto 0);
+  cout: out std_logic);
+end half_adder_subtractor;
+
+architecture rtl of half_adder_subtractor is
+begin
+  process(a, b, ctrl) is
+  variable result        : unsigned(2 downto 0);
+  begin
+    if ctrl = '0' then
+    	result := unsigned('0' & a) + unsigned('0' & b);
+    else
+    	result := unsigned('0' & a) - unsigned('0' & b);
+    end if;
+    
+    sum 	<= std_logic_vector(result(1 downto 0));
+    cout 	<= result(2);
+  end process;
+end rtl;
