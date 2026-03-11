@@ -1,0 +1,275 @@
+$date
+	Fri Oct 10 14:29:18 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench $end
+$var wire 4 ! Q [3:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ rst_n $end
+$var integer 32 % i [31:0] $end
+$scope module DUT $end
+$var wire 1 # clk $end
+$var wire 1 $ rst_n $end
+$var wire 4 & Q [3:0] $end
+$scope module t1 $end
+$var wire 1 ' T $end
+$var wire 1 # clk $end
+$var wire 1 $ rst_n $end
+$var reg 1 ( Q $end
+$upscope $end
+$scope module t2 $end
+$var wire 1 ) T $end
+$var wire 1 * clk $end
+$var wire 1 $ rst_n $end
+$var reg 1 + Q $end
+$upscope $end
+$scope module t3 $end
+$var wire 1 , T $end
+$var wire 1 - clk $end
+$var wire 1 $ rst_n $end
+$var reg 1 . Q $end
+$upscope $end
+$scope module t4 $end
+$var wire 1 / T $end
+$var wire 1 0 clk $end
+$var wire 1 $ rst_n $end
+$var reg 1 1 Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+01
+00
+1/
+0.
+0-
+1,
+0+
+0*
+1)
+0(
+1'
+b0 &
+bx %
+0$
+0#
+bx "
+b0 !
+$end
+#25
+1#
+#26
+b0 %
+b1111 "
+1$
+#50
+0#
+#75
+11
+10
+1.
+1-
+1+
+1*
+b1111 !
+b1111 &
+1(
+1#
+#76
+b1 %
+b1110 "
+#100
+0#
+#125
+0*
+b1110 !
+b1110 &
+0(
+1#
+#126
+b10 %
+b1101 "
+#150
+0#
+#175
+0-
+0+
+1*
+b1101 !
+b1101 &
+1(
+1#
+#176
+b11 %
+b1100 "
+#200
+0#
+#225
+0*
+b1100 !
+b1100 &
+0(
+1#
+#226
+b100 %
+b1011 "
+#250
+0#
+#275
+00
+0.
+1-
+1+
+1*
+b1011 !
+b1011 &
+1(
+1#
+#276
+b101 %
+b1010 "
+#300
+0#
+#325
+0*
+b1010 !
+b1010 &
+0(
+1#
+#326
+b110 %
+b1001 "
+#350
+0#
+#375
+0-
+0+
+1*
+b1001 !
+b1001 &
+1(
+1#
+#376
+b111 %
+b1000 "
+#400
+0#
+#425
+0*
+b1000 !
+b1000 &
+0(
+1#
+#426
+b1000 %
+b111 "
+#450
+0#
+#475
+01
+10
+1.
+1-
+1+
+1*
+b111 !
+b111 &
+1(
+1#
+#476
+b1001 %
+b110 "
+#500
+0#
+#525
+0*
+b110 !
+b110 &
+0(
+1#
+#526
+b1010 %
+b101 "
+#550
+0#
+#575
+0-
+0+
+1*
+b101 !
+b101 &
+1(
+1#
+#576
+b1011 %
+b100 "
+#600
+0#
+#625
+0*
+b100 !
+b100 &
+0(
+1#
+#626
+b1100 %
+b11 "
+#650
+0#
+#675
+00
+0.
+1-
+1+
+1*
+b11 !
+b11 &
+1(
+1#
+#676
+b1101 %
+b10 "
+#700
+0#
+#725
+0*
+b10 !
+b10 &
+0(
+1#
+#726
+b1110 %
+b1 "
+#750
+0#
+#775
+0-
+0+
+1*
+b1 !
+b1 &
+1(
+1#
+#776
+b1111 %
+b0 "
+#800
+0#
+#825
+0*
+b0 !
+b0 &
+0(
+1#
+#826
+b10000 %
+b1111 "
+#836

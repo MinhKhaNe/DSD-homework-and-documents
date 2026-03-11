@@ -1,0 +1,122 @@
+$date
+	Fri Oct 10 20:11:37 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench6 $end
+$var wire 1 ! gate_sum $end
+$var wire 1 " gate_carry $end
+$var wire 1 # data_sum $end
+$var wire 1 $ data_carry $end
+$var wire 1 % behav_sum $end
+$var wire 1 & behav_carry $end
+$var reg 1 ' a $end
+$var reg 1 ( b $end
+$var reg 1 ) cin $end
+$scope module DUT $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 ) cin $end
+$var wire 1 $ data_carry $end
+$var wire 1 * data_carry_1 $end
+$var wire 1 + data_carry_2 $end
+$var wire 1 # data_sum $end
+$var wire 1 , data_sum_1 $end
+$var wire 1 " gate_carry $end
+$var wire 1 - gate_carry_1 $end
+$var wire 1 . gate_carry_2 $end
+$var wire 1 ! gate_sum $end
+$var wire 1 / gate_sum_1 $end
+$var reg 1 & behav_carry $end
+$var reg 1 0 behav_carry_1 $end
+$var reg 1 1 behav_carry_2 $end
+$var reg 1 % behav_sum $end
+$var reg 1 2 behav_sum_1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#1
+1!
+1#
+1%
+1/
+1,
+12
+1(
+#3
+0(
+1'
+#5
+0/
+0,
+02
+1)
+0'
+#7
+1"
+1$
+0!
+0#
+0%
+1&
+1-
+1*
+10
+0)
+1(
+1'
+#9
+1.
+1+
+11
+1/
+0-
+1,
+0*
+12
+00
+1)
+0'
+#11
+0(
+1'
+#13
+0.
+1!
+0+
+1#
+01
+1%
+0/
+1-
+0,
+1*
+02
+10
+1(
+#15
