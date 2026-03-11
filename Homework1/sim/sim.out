@@ -1,0 +1,106 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001dd6c6dc800 .scope module, "test_bench" "test_bench" 2 1;
+ .timescale 0 0;
+v000001dd6c6096b0_0 .var "a", 0 0;
+v000001dd6c609110_0 .net "and_out", 0 0, L_000001dd6c5aa9f0;  1 drivers
+v000001dd6c6094d0_0 .var "b", 0 0;
+v000001dd6c609070_0 .net "buffer_out", 0 0, L_000001dd6c5aa600;  1 drivers
+v000001dd6c60a3d0_0 .net "i_out", 0 0, L_000001dd6c5aa980;  1 drivers
+v000001dd6c60a330_0 .net "nand_out", 0 0, L_000001dd6c5aaa60;  1 drivers
+v000001dd6c60a010_0 .net "nor_out", 0 0, L_000001dd6c5aa830;  1 drivers
+v000001dd6c60a290_0 .net "or_out", 0 0, L_000001dd6c5aa7c0;  1 drivers
+v000001dd6c608e90_0 .net "xnor_out", 0 0, L_000001dd6c60a900;  1 drivers
+v000001dd6c609bb0_0 .net "xor_out", 0 0, L_000001dd6c60aa50;  1 drivers
+S_000001dd6c6dc990 .scope module, "DUT" "homework" 2 7, 3 1 0, S_000001dd6c6dc800;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "and_out";
+    .port_info 3 /OUTPUT 1 "or_out";
+    .port_info 4 /OUTPUT 1 "i_out";
+    .port_info 5 /OUTPUT 1 "buffer_out";
+    .port_info 6 /OUTPUT 1 "nand_out";
+    .port_info 7 /OUTPUT 1 "nor_out";
+    .port_info 8 /OUTPUT 1 "xor_out";
+    .port_info 9 /OUTPUT 1 "xnor_out";
+L_000001dd6c5aa9f0 .functor AND 1, v000001dd6c6096b0_0, v000001dd6c6094d0_0, C4<1>, C4<1>;
+L_000001dd6c5aa7c0 .functor OR 1, v000001dd6c6096b0_0, v000001dd6c6094d0_0, C4<0>, C4<0>;
+L_000001dd6c5aa980 .functor NOT 1, v000001dd6c6096b0_0, C4<0>, C4<0>, C4<0>;
+L_000001dd6c5aa600 .functor BUFZ 1, v000001dd6c6096b0_0, C4<0>, C4<0>, C4<0>;
+L_000001dd6c5aaad0 .functor AND 1, v000001dd6c6096b0_0, v000001dd6c6094d0_0, C4<1>, C4<1>;
+L_000001dd6c5aaa60 .functor NOT 1, L_000001dd6c5aaad0, C4<0>, C4<0>, C4<0>;
+L_000001dd6c5aab40 .functor OR 1, v000001dd6c6096b0_0, v000001dd6c6094d0_0, C4<0>, C4<0>;
+L_000001dd6c5aa830 .functor NOT 1, L_000001dd6c5aab40, C4<0>, C4<0>, C4<0>;
+L_000001dd6c5aa8a0 .functor NOT 1, v000001dd6c6096b0_0, C4<0>, C4<0>, C4<0>;
+L_000001dd6c5aa670 .functor AND 1, L_000001dd6c5aa8a0, v000001dd6c6094d0_0, C4<1>, C4<1>;
+L_000001dd6c5aabb0 .functor NOT 1, v000001dd6c6094d0_0, C4<0>, C4<0>, C4<0>;
+L_000001dd6c5aac90 .functor AND 1, v000001dd6c6096b0_0, L_000001dd6c5aabb0, C4<1>, C4<1>;
+L_000001dd6c60aa50 .functor OR 1, L_000001dd6c5aa670, L_000001dd6c5aac90, C4<0>, C4<0>;
+L_000001dd6c60a9e0 .functor NOT 1, v000001dd6c6096b0_0, C4<0>, C4<0>, C4<0>;
+L_000001dd6c60aac0 .functor NOT 1, v000001dd6c6094d0_0, C4<0>, C4<0>, C4<0>;
+L_000001dd6c60ad60 .functor AND 1, L_000001dd6c60a9e0, L_000001dd6c60aac0, C4<1>, C4<1>;
+L_000001dd6c60af20 .functor AND 1, v000001dd6c6096b0_0, v000001dd6c6094d0_0, C4<1>, C4<1>;
+L_000001dd6c60a900 .functor OR 1, L_000001dd6c60ad60, L_000001dd6c60af20, C4<0>, C4<0>;
+v000001dd6c5aa4f0_0 .net *"_ivl_13", 0 0, L_000001dd6c5aab40;  1 drivers
+v000001dd6c5a9d70_0 .net *"_ivl_16", 0 0, L_000001dd6c5aa8a0;  1 drivers
+v000001dd6c5a9e10_0 .net *"_ivl_19", 0 0, L_000001dd6c5aa670;  1 drivers
+v000001dd6c5aa090_0 .net *"_ivl_20", 0 0, L_000001dd6c5aabb0;  1 drivers
+v000001dd6c5aa1d0_0 .net *"_ivl_23", 0 0, L_000001dd6c5aac90;  1 drivers
+v000001dd6c5a97d0_0 .net *"_ivl_26", 0 0, L_000001dd6c60a9e0;  1 drivers
+v000001dd6c5a9f50_0 .net *"_ivl_28", 0 0, L_000001dd6c60aac0;  1 drivers
+v000001dd6c5a9a50_0 .net *"_ivl_31", 0 0, L_000001dd6c60ad60;  1 drivers
+v000001dd6c5a9af0_0 .net *"_ivl_33", 0 0, L_000001dd6c60af20;  1 drivers
+v000001dd6c5aa130_0 .net *"_ivl_9", 0 0, L_000001dd6c5aaad0;  1 drivers
+v000001dd6c5a9b90_0 .net "a", 0 0, v000001dd6c6096b0_0;  1 drivers
+v000001dd6c5a9910_0 .net "and_out", 0 0, L_000001dd6c5aa9f0;  alias, 1 drivers
+v000001dd6c5aa270_0 .net "b", 0 0, v000001dd6c6094d0_0;  1 drivers
+v000001dd6c5aa310_0 .net "buffer_out", 0 0, L_000001dd6c5aa600;  alias, 1 drivers
+v000001dd6c5aa450_0 .net "i_out", 0 0, L_000001dd6c5aa980;  alias, 1 drivers
+v000001dd6c5a95f0_0 .net "nand_out", 0 0, L_000001dd6c5aaa60;  alias, 1 drivers
+v000001dd6c5a9690_0 .net "nor_out", 0 0, L_000001dd6c5aa830;  alias, 1 drivers
+v000001dd6c60a150_0 .net "or_out", 0 0, L_000001dd6c5aa7c0;  alias, 1 drivers
+v000001dd6c60a6f0_0 .net "xnor_out", 0 0, L_000001dd6c60a900;  alias, 1 drivers
+v000001dd6c60a790_0 .net "xor_out", 0 0, L_000001dd6c60aa50;  alias, 1 drivers
+    .scope S_000001dd6c6dc800;
+T_0 ;
+    %vpi_call 2 10 "$dumpfile", "wave.vcd" {0 0 0};
+    %vpi_call 2 11 "$dumpvars", 32'sb00000000000000000000000000000000, S_000001dd6c6dc800 {0 0 0};
+    %vpi_call 2 12 "$display", "===== Four cases of each logic gates =====" {0 0 0};
+    %vpi_call 2 13 "$monitor", $time, " ", "===== With A = %b, B= %b: AND = %b, OR = %b, I = %b, BUFFER = %b, NAND = %b, NOR = %b, XOR = %b, XNOR = %b =====", v000001dd6c6096b0_0, v000001dd6c6094d0_0, v000001dd6c609110_0, v000001dd6c60a290_0, v000001dd6c60a3d0_0, v000001dd6c609070_0, v000001dd6c60a330_0, v000001dd6c60a010_0, v000001dd6c609bb0_0, v000001dd6c608e90_0 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001dd6c6096b0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001dd6c6094d0_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001dd6c6096b0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001dd6c6094d0_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001dd6c6096b0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000001dd6c6094d0_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001dd6c6096b0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000001dd6c6094d0_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 22 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "test_bench.v";
+    "homework.v";

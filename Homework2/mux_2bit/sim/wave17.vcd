@@ -1,0 +1,76 @@
+$date
+	Sat Sep 27 15:33:57 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench17 $end
+$var wire 2 ! gate_out [1:0] $end
+$var wire 2 " data_out [1:0] $end
+$var wire 2 # behav_out [1:0] $end
+$var reg 2 $ a [1:0] $end
+$var reg 2 % b [1:0] $end
+$var reg 1 & s $end
+$scope module DUT $end
+$var wire 2 ' a [1:0] $end
+$var wire 2 ( b [1:0] $end
+$var wire 1 & s $end
+$var wire 1 ) s_or $end
+$var wire 2 * gate_out [1:0] $end
+$var wire 2 + f2 [1:0] $end
+$var wire 2 , f1 [1:0] $end
+$var wire 2 - data_out [1:0] $end
+$var reg 2 . behav_out [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+1)
+b0 (
+b1 '
+0&
+b0 %
+b1 $
+b0 #
+b0 "
+b0 !
+$end
+#1
+b1 #
+b1 .
+b1 !
+b1 *
+0)
+b1 +
+b1 "
+b1 -
+1&
+#2
+b1 ,
+1)
+b0 +
+0&
+b1 %
+b1 (
+b0 $
+b0 '
+#3
+b0 #
+b0 .
+b0 !
+b0 *
+b0 ,
+0)
+b0 "
+b0 -
+1&
+#5

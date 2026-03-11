@@ -1,0 +1,166 @@
+$date
+	Mon Sep 29 14:34:52 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench18 $end
+$var wire 1 ! gate_out $end
+$var wire 1 " gate_carry $end
+$var wire 1 # data_out $end
+$var wire 1 $ data_carry $end
+$var wire 1 % behav_out $end
+$var wire 1 & behav_carry $end
+$var reg 1 ' a $end
+$var reg 1 ( b $end
+$var reg 1 ) bin $end
+$scope module DUT $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 ) bin $end
+$var wire 1 $ data_carry $end
+$var wire 1 # data_out $end
+$var wire 1 * f1 $end
+$var wire 1 + f2 $end
+$var wire 1 , f3 $end
+$var wire 1 " gate_carry $end
+$var wire 1 ! gate_out $end
+$var wire 1 - n_a $end
+$var reg 1 & behav_carry $end
+$var reg 1 % behav_out $end
+$upscope $end
+$scope task check_borrow $end
+$var reg 1 . b_borrow $end
+$var reg 1 / d_borrow $end
+$var reg 1 0 expected_borrow $end
+$var reg 1 1 g_borrow $end
+$upscope $end
+$scope task check_result $end
+$var reg 1 2 b_out $end
+$var reg 1 3 d_out $end
+$var reg 1 4 expected_result $end
+$var reg 1 5 g_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+1-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#1
+1$
+1"
+1!
+1+
+1#
+1&
+1%
+1)
+0.
+0/
+01
+00
+02
+03
+05
+04
+#2
+0+
+1*
+0)
+1(
+1.
+1/
+11
+10
+12
+13
+15
+14
+#3
+0!
+1+
+1,
+0#
+0%
+1)
+#4
+0$
+0"
+0+
+1#
+0*
+0,
+1!
+0-
+0&
+1%
+0)
+0(
+1'
+02
+03
+05
+04
+#5
+0!
+0#
+0%
+1)
+0.
+0/
+01
+00
+12
+13
+15
+14
+#6
+0)
+1(
+02
+03
+05
+04
+#7
+1"
+1$
+1!
+1,
+1#
+1&
+1%
+1)
+#8
+1.
+1/
+11
+10
+12
+13
+15
+14
+#9

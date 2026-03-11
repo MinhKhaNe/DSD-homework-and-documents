@@ -1,0 +1,65 @@
+$date
+	Mon Sep 22 19:12:46 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench $end
+$var wire 1 ! xor_out $end
+$var wire 1 " xnor_out $end
+$var wire 1 # or_out $end
+$var wire 1 $ nor_out $end
+$var wire 1 % nand_out $end
+$var wire 1 & i_out $end
+$var wire 1 ' buffer_out $end
+$var wire 1 ( and_out $end
+$var reg 1 ) a $end
+$var reg 1 * b $end
+$scope module DUT $end
+$var wire 1 ) a $end
+$var wire 1 ( and_out $end
+$var wire 1 * b $end
+$var wire 1 ' buffer_out $end
+$var wire 1 & i_out $end
+$var wire 1 % nand_out $end
+$var wire 1 $ nor_out $end
+$var wire 1 # or_out $end
+$var wire 1 " xnor_out $end
+$var wire 1 ! xor_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0*
+0)
+0(
+0'
+1&
+1%
+1$
+0#
+1"
+0!
+$end
+#1
+0"
+0$
+1!
+1#
+1*
+#2
+0&
+0*
+1'
+1)
+#3
+0!
+0%
+1"
+1(
+1*
+#4

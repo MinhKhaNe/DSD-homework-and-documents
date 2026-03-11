@@ -1,0 +1,330 @@
+$date
+	Fri Sep 26 13:43:15 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench13 $end
+$var wire 2 ! gate_out [1:0] $end
+$var wire 1 " gate_carry $end
+$var wire 2 # data_out [1:0] $end
+$var wire 1 $ data_carry $end
+$var wire 2 % behav_out [1:0] $end
+$var wire 1 & behav_carry $end
+$var reg 2 ' a [1:0] $end
+$var reg 2 ( b [1:0] $end
+$var integer 32 ) i [31:0] $end
+$var integer 32 * j [31:0] $end
+$scope module DUT $end
+$var wire 2 + a [1:0] $end
+$var wire 2 , b [1:0] $end
+$var wire 1 - b1 $end
+$var wire 1 . b1_1 $end
+$var wire 1 / b1_2 $end
+$var wire 1 0 b1_3 $end
+$var wire 1 1 b1_4 $end
+$var wire 1 2 b1_5 $end
+$var wire 1 3 b2_1 $end
+$var wire 1 4 b2_2 $end
+$var wire 1 5 b2_3 $end
+$var wire 1 6 b2_4 $end
+$var wire 1 $ data_carry $end
+$var wire 1 " gate_carry $end
+$var wire 1 7 n_a0 $end
+$var wire 1 8 n_a1 $end
+$var wire 2 9 gate_out [1:0] $end
+$var wire 2 : data_out [1:0] $end
+$var reg 1 ; b3 $end
+$var reg 1 & behav_carry $end
+$var reg 2 < behav_out [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 <
+0;
+b0 :
+b0 9
+18
+17
+06
+15
+04
+03
+02
+01
+10
+0/
+0.
+0-
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+0&
+b0 %
+0$
+b0 #
+0"
+b0 !
+$end
+#1
+1"
+1$
+16
+12
+00
+b11 #
+b11 :
+1-
+b11 !
+b11 9
+1.
+1/
+1&
+1;
+b11 %
+b11 <
+b1 (
+b1 ,
+b1 *
+#2
+06
+02
+10
+05
+0-
+b10 #
+b10 :
+0.
+0/
+b10 !
+b10 9
+13
+14
+0;
+b10 %
+b10 <
+b10 (
+b10 ,
+b10 *
+#3
+12
+00
+b1 #
+b1 :
+1-
+b1 !
+b1 9
+1.
+1/
+1;
+b1 %
+b1 <
+b11 (
+b11 ,
+b11 *
+#4
+02
+0"
+15
+0-
+b1 #
+b1 :
+0$
+0.
+b1 !
+b1 9
+03
+04
+07
+0&
+b1 %
+b1 <
+0;
+b0 (
+b0 ,
+b1 '
+b1 +
+b1 )
+b0 *
+#5
+10
+b0 #
+b0 :
+b0 !
+b0 9
+0/
+b0 %
+b0 <
+b1 (
+b1 ,
+b1 *
+#6
+00
+1"
+05
+b11 #
+b11 :
+1$
+1/
+b11 !
+b11 9
+13
+14
+1&
+b11 %
+b11 <
+b10 (
+b10 ,
+b10 *
+#7
+10
+b10 #
+b10 :
+b10 !
+b10 9
+0/
+b10 %
+b10 <
+b11 (
+b11 ,
+b11 *
+#8
+0"
+0$
+03
+17
+08
+0&
+b0 (
+b0 ,
+b10 '
+b10 +
+b10 )
+b0 *
+#9
+12
+00
+b1 #
+b1 :
+1-
+b1 !
+b1 9
+1.
+1/
+1;
+b1 %
+b1 <
+b1 (
+b1 ,
+b1 *
+#10
+02
+10
+15
+0-
+b0 #
+b0 :
+0.
+0/
+b0 !
+b0 9
+04
+0;
+b0 %
+b0 <
+b10 (
+b10 ,
+b10 *
+#11
+1"
+1$
+16
+12
+00
+b11 #
+b11 :
+1-
+b11 !
+b11 9
+1.
+1/
+1&
+1;
+b11 %
+b11 <
+b11 (
+b11 ,
+b11 *
+#12
+0"
+0$
+06
+02
+05
+0-
+b11 #
+b11 :
+0.
+b11 !
+b11 9
+14
+07
+0&
+b11 %
+b11 <
+0;
+b0 (
+b0 ,
+b11 '
+b11 +
+b11 )
+b0 *
+#13
+10
+b10 #
+b10 :
+b10 !
+b10 9
+0/
+b10 %
+b10 <
+b1 (
+b1 ,
+b1 *
+#14
+00
+15
+b1 #
+b1 :
+1/
+b1 !
+b1 9
+04
+b1 %
+b1 <
+b10 (
+b10 ,
+b10 *
+#15
+10
+b0 #
+b0 :
+b0 !
+b0 9
+0/
+b0 %
+b0 <
+b11 (
+b11 ,
+b11 *
+#16
+b100 )
+b100 *
